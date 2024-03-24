@@ -41,6 +41,8 @@ def handle_response(text: str) -> str:
         return 'Bye'
     if text == 'test':
         return 'Bot is up and running'
+    if text == '<3':
+        return "I'm glad you like it too :)"
     return 'I dont know that'
 
 
